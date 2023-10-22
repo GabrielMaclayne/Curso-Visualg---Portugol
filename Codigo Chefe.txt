@@ -1,0 +1,30 @@
+algoritmo "Chefe"
+var
+TocaDoRato:literal
+Cargo:literal
+nome:literal
+inicio
+escreval ("Indentificação do Sistema")
+escreval
+escreva ("Digite seu nome: ")
+leia (nome)
+se (nome = "thiago") ou (nome = "gabriel") ou (nome = "elsio") ou (nome = "antonio") entao
+escreval
+escreval ("Você trabalha na Toca Do Rato e MercadOnline ?")
+leia (TocaDoRato)
+se (TocaDoRato = "sim") ou (TocaDoRato = "trabalho") entao
+escreval
+escreval ("Qual o seu cargo ?")
+leia (Cargo)
+escreval
+escreva("Que bom ", nome, " é otimo ter você como ", cargo," da empresa !" )
+escreval
+senao
+escreval
+escreval("Deveria tentar entrar nessa empresa !")
+fimse
+senao
+escreval
+escreval("Seu nome não foi encontrado nos registros.")
+fimse
+fimalgoritmo
